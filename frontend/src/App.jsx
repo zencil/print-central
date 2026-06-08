@@ -3,17 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import OnBoard from './pages/home'
+import Homepage from './pages/home'
+
 
 function App() {
 
   return (
     <>
-      <div>
-        <OnBoard />
-        
-      </div>
-
+      <Homepage />
     </>
   )
 }
